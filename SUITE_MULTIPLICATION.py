@@ -2,13 +2,16 @@
 #-------------------------------------------------------------------------------
 # Paramore - Brick By Boring Brick ( R3dX PUNKGOESDNB REMIX )
 #--------------------------------------------------------------------------------
-# > Afficher le suite nes "nb" premiers termes d'une suite u(n+1) = u(n)*q :
+# > Afficher la suite nes "nb" premiers termes d'une suite u(n+1) = u(n)*q :
 #--------------------------------------------------------------------------------
 # u(n) est le premier terme
+# u(n+1) est le terme qui va directement suivre le terme u(n)
 # q est la raison de la suite
-# nb sera le nombre de termes à afficher, assimilable au nombre d'itérations
+# nb sera le nombre de termes à affiche = le nombre d'itérations
 #--------------------------------------------------------------------------------
 # hviviane@gmail.com !)
+#--------------------------------------------------------------------------------
+# Merci
 #--------------------------------------------------------------------------------
 
 u0=int(input("premier terme ?"))
