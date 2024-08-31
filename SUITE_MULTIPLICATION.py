@@ -19,13 +19,14 @@ r=int(input("raison ?"))
 nb=int(input("nombre de termes successifs à afficher ?"))
 
 i=0
-
+somme=0
 suite=""
 
 while i<nb :
     n=u0*r
+    somme+=n
     u0=n
     i+=1
     suite+=str(n)+"|"
 
-print(suite)
+print(suite, "> Somme des", nb, "premiers termes =", somme)
