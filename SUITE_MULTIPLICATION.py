@@ -29,4 +29,4 @@ while i<nb :
     i+=1
     suite+=str(n)+"|"
 
-print(suite, "> Somme des", nb, "premiers termes =", somme)
+print(f"{suite} > Somme des {nb} premiers termes = {somme}")
